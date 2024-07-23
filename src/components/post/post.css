@@ -1,0 +1,29 @@
+.post .userName{
+    letter-spacing: -.7px;
+    font-weight: bold;
+}
+.post .timeAgo {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7e7e7e;
+}
+.postTop .userImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.postImg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.bottomRight img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.bottomRight img:hover {
+    transform: translateY(-5px);
+}

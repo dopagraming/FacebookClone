@@ -1,0 +1,33 @@
+.profileRight {
+    flex: 8;
+}
+.profileRightTop {
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.profileCoverImg {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+.profileUsername {
+    padding-top: 75px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+.profileUserImg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -75px;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 100;
+object-fit: cover;
+}

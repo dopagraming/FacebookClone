@@ -1,0 +1,13 @@
+
+.shareText {
+    border: none;
+    width: 85%;
+    color: black;
+    resize: none;
+    height: 50px;
+    overflow: hidden;
+    background-color: transparent;
+}
+.shareText:focus {
+    outline: none;
+}
